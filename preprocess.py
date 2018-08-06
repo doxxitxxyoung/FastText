@@ -2,16 +2,12 @@ import nltk
 import os
 import pickle
 import csv
-import pandas as pd
 import numpy as np
 import nltk
-import multiprocessing as mp
 from nltk.util import ngrams
 from nltk.corpus import stopwords
 from nltk.tokenize import RegexpTokenizer
 
-datadir = "/home/doyeong/fasttext/data/"
-bz2filename = "newsSpace"
 agdir = "/home/doyeong/fasttext/data/ag_news_csv/"
 agtraindir = agdir+"train.csv"
 agtestdir = agdir+"test.csv"
